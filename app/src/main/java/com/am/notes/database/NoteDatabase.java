@@ -1,0 +1,33 @@
+package com.am.notes.database;
+
+import android.content.Context;
+import androidx.room.Database;
+import androidx.room.Room;
+import androidx.room.RoomDatabase;
+import com.am.notes.dao.NoteDao;
+import com.am.notes.model.Note;
+
+/*
+ * Copyright (c) 2025-Present, Anton Muzhytskyi
+ * All rights reserved.
+ *
+ * This code is developed and owned by Anton Muzhytskyi.
+ * Unauthorized copying of this file, via any medium, is strictly prohibited.
+ */
+
+@Database(entities = {Note.class}, version = 1, exportSchema = false)
+public abstract class NoteDatabase extends RoomDatabase {
+    private static NoteDatabase instance;
+
+    public abstract NoteDao noteDao();
+
+    public static synchronized NoteDatabase getInstance(Context context) {
+        if (instance == null) {
+            instance = Room.databaseBuilder(context.getApplicationContext(),
+                            NoteDatabase.class, "note_database")
+                    .fallbackToDestructiveMigration()
+                    .build();
+        }
+        return instance;
+    }
+}

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BullNote</string>
+    <string name="protected_label">Protected</string>
+    <string name="type_your_note">Type your note…</string>
+    <string name="regular">Regular</string>
+    <string name="regular_label">Regular</string>
+    <string name="unlock_notes">Unlock Notes</string>
+    <string name="use_your_fingerprint_to_unlock_protected_notes">Use your fingerprint to unlock protected notes</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="are_you_sure_you_want_to_delete_this_note">Are you sure you want to delete this note?</string>
+    <string name="delete">Delete</string>
+    <string name="biometric_authentication_not_available">Biometric authentication not available</string>
+    <string name="authentication_error">"Authentication error: "</string>
+    <string name="authentication_failed">Authentication failed</string>
+</resources>
