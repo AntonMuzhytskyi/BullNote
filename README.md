@@ -49,7 +49,17 @@ This project reflects my passion for solving real-world problems through code an
 
 ### Building a Release APK
 - Configure the signing settings in `app/build.gradle` (see `signingConfigs`).  
-- Run `./gradlew assembleRelease` to generate a signed APK.    
+- Run `./gradlew assembleRelease` to generate a signed APK.
+
+
+## 📦 Download APK
+
+Want to try the app without building it yourself?
+
+👉 [**Download BullNote v1.0 (APK)**](https://github.com/AntonMuzhytskyi/BullNote/releases/download/v1.0/BullNote.apk)
+
+> Compatible with Android 7.0 (API 24) and up.
+ 
 
 ## About Me
 I’m a dedicated Android developer with a strong foundation in Java, Android SDK, and modern app architecture. 
