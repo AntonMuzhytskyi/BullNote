@@ -49,16 +49,11 @@ This project reflects my passion for solving real-world problems through code an
 
 ### Building a Release APK
 - Configure the signing settings in `app/build.gradle` (see `signingConfigs`).  
-- Run `./gradlew assembleRelease` to generate a signed APK.  
-
-## Future Enhancements
-- Search functionality for quick note retrieval. 
-- Rich text editing for notes.  
-- Custom themes and dark mode support.  
+- Run `./gradlew assembleRelease` to generate a signed APK.    
 
 ## About Me
 I’m a dedicated Android developer with a strong foundation in Java, Android SDK, and modern app architecture. 
-Through AMNotes, I’ve honed my skills in security, UI/UX design, and performance optimization. 
+Through BullNote, I’ve honed my skills in security, UI/UX design, and performance optimization. 
 I’m eager to bring my expertise to innovative projects and collaborate with teams that value clean code and user-focused solutions.  
 
-Feel free to explore
+Feel free to contact me to discuss potential opportunities or explore the code!
