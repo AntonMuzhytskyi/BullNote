@@ -71,10 +71,8 @@ Want to try the app without building it yourself?
 
  ## 🖼️ Screenshots
 
-<img src="screenshot1.png" width="300" style="margin-right: 10px;" /> 
-<img src="screenshot2.png" width="300" style="margin-right: 10px;" />  
-<img src="screenshot3.png" width="300" style="margin-right: 10px;" /> 
-<img src="screenshot4.png" width="300" />
+<img src="screenshot1.png" width="300" style="margin-right: 10px;" /> <img src="screenshot2.png" width="300" style="margin-right: 10px;" />  
+<img src="screenshot3.png" width="300" style="margin-right: 10px;" /> <img src="screenshot4.png" width="300" />
 
 
 ## About Me
